@@ -1,0 +1,11 @@
+.slider {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+}
+
+.slider-element {
+    scroll-snap-align: center;
+}
